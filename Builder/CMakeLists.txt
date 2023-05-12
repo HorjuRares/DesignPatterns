@@ -1,4 +1,5 @@
-add_subdirectory(src)
+add_library(CodeBuilder STATIC "./src/CodeBuilder.cpp")
+target_include_directories(CodeBuilder PUBLIC "./include")
 
 add_executable(Builder "builder.cpp")
 
