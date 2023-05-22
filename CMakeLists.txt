@@ -1,6 +1,7 @@
-CMAKE_MINIMUM_REQUIRED_VERSION(3.22)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.22)
 
 project(
-    DesignPatterns 
-    1.0.0 
+    DesignPatterns
     LANGUAGES C CXX)
+
+add_subdirectory(Builder)
