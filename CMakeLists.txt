@@ -5,3 +5,4 @@ project(
     LANGUAGES C CXX)
 
 add_subdirectory(Builder)
+add_subdirectory(Factory)
